@@ -3,33 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forest Background</title>
+    <title>About Me - Vinny Penumala</title>
     <style>
         body {
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
             height: 100vh;
-            background-image: url('https://www.example.com/forest.jpg'); /* Replace with your forest image URL */
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            color: white;
-            font-family: Arial, sans-serif;
-            text-align: center;
+            background: linear-gradient(135deg, #2b7a2f, #4CAF50); /* Gradient background */
+            color: #fff;
         }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+            border-radius: 8px;
+        }
+
         h1 {
-            margin-top: 20%;
-            font-size: 3em;
+            text-align: center;
+            color: #333;
         }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
         p {
-            font-size: 1.5em;
+            font-size: 1.1em;
+            line-height: 1.6;
+            text-align: justify;
+            margin-bottom: 20px;
         }
+
+        .highlight {
+            color: #4CAF50;
+            font-weight: bold;
+        }
+
+        .quote {
+            font-style: italic;
+            text-align: center;
+            margin-top: 40px;
+            color: #555;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            margin-top: 40px;
+        }
+
     </style>
 </head>
 <body>
 
-    <h1>Welcome to the Forest</h1>
-    <p>Immerse yourself in nature's beauty.</p>
+    <div class="container">
+        <h1>About Me - Vinny Penumala</h1>
+
+        <h2>Introduction</h2>
+        <p>
+            Hi, my name is <span class="highlight">Vinny Penumala</span>. I am from <span class="highlight">Bhimavaram</span>, a small town with a rich culture. I am currently studying <span class="highlight">BCA</span> (Bachelor of Computer Applications). 
+            I am passionate about technology and eager to learn more in the field of computers and IT.
+        </p>
+
+        <h2>Inspiration</h2>
+        <p>
+            I draw great inspiration from <span class="highlight">YS Jagan</span>, a leader who has motivated me with his determination and vision for the future. His ability to bring change and focus on people’s welfare is something I admire greatly.
+        </p>
+
+        <div class="quote">
+            <p>"Success comes from hard work and dedication. Always stay focused on your goals." – YS Jagan</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Vinny Penumala. All Rights Reserved.</p>
+    </footer>
 
 </body>
 </html>
